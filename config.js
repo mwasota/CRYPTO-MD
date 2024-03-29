@@ -12,7 +12,7 @@ module.exports = {
     },
     PORT: process.env.PORT || 3000,
     BASE_URL : "https://upper-romy-inrl-bot.koyeb.app/",
-    REPO: "VajiraTech/VAJIRA-MD",
+    REPO: "VajiraTech/CRYPTO-MD",
     BGM_URL : process.env.BGM_URL || "null",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
@@ -31,13 +31,13 @@ module.exports = {
     CHATBOT : process.env.CHATBOT || "false",//true, pm, group
     REACT : process.env.REACT || "false",//true, command, emoji
     WARNCOUND : process.env.WARNCOUND || 5,
-    BOT_INFO : process.env.BOT_INFO || "VAJIRA-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
+    BOT_INFO : process.env.BOT_INFO || "CRYPTO-MD;INRL;https://telegra.ph/file/98abc0f82bee0995da09c.jpg",
     WORKTYPE : process.env.WORKTYPE || "private",
     PREFIX : process.env.PREFIX || "[.,!]",//both  .  and [.] equal, for multi prefix we use [] this
     LANG : process.env.LANG || "en",
     PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || "null",
     BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
-    AUDIO_DATA : process.env.AUDIO_DATA || "VAJIRA-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
+    AUDIO_DATA : process.env.AUDIO_DATA || "VAJIRA-MD;INRL;https://telegra.ph/file/98abc0f82bee0995da09c.jpg",
     STICKER_DATA : process.env.STICKER_DATA || "VAJIRA;VAJIRA",
     BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
     SUDO : process.env.SUDO || "null",
