@@ -1,8 +1,8 @@
 {
     "name": "ＱＵＥＥＮ -ＩＺＵＭＩ - V1 WhatsApp Bot",
     "description": "This is a 3ʳᵈ Party Application software for WhatsApp with Many Feature & many Commands",
-    "repository": "https://github.com/VajiraTech/VAJIRA-MD",
-    "logo": "https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg",
+    "repository": "https://github.com/VajiraTech/CRYPTO-MD",
+    "logo": "https://telegra.ph/file/98abc0f82bee0995da09c.jpg",
     "keywords": [
         "nodejs",
         "Bot",
@@ -34,7 +34,7 @@
     "BOT_INFO": {
       "description": "baasic bot configration",
       "required": true,
-      "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
+      "value": "INRL-BOT-MD;INRL;https://telegra.ph/file/98abc0f82bee0995da09c.jpg"
     },
     "PREFIX": {
       "description": "bot preifx  ., [.,!], false",
@@ -44,7 +44,7 @@
     "AUDIO_DATA": {
       "description": "audio metadata",
       "required": true,
-      "value": "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg"
+      "value": "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://telegra.ph/file/98abc0f82bee0995da09c.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker data",
