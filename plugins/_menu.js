@@ -62,7 +62,7 @@ inrl({
     pattern: "moreinfo",
     desc: "hi",
     react: "🥰",
-    type: 'info',
+    type: '',
     usage:lang.ALIVE.HELP,
     fromMe: mode
 }, async (message, match) => {
