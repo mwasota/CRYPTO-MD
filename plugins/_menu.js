@@ -55,3 +55,23 @@ inrl({
     const {alive} = await personalDB(['alive'], {content:{}},'get');
     return await send_alive(message, alive);
 });
+
+
+
+inrl({
+    pattern: "moreinfo",
+    desc: "hi",
+    react: "🥰",
+    type: 'info',
+    usage:lang.ALIVE.HELP,
+    fromMe: mode
+}, async (message, match) => {
+    	return await message.send(`*🔖 Your birth day details*
+
+*々 age :*  🧃
+
+     *⸋ life time*
+
+`);
+});
+	    
